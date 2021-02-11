@@ -1,0 +1,6 @@
+syntax on
+vert sall
+set rnu
+so ~/.pythonvimrc
+au BufRead,BufNewFile .txt set textwidth=79
+set textwidth=79
