@@ -130,4 +130,3 @@ alias s="python3 ~/git/NeckbeardConfigs/update_repo_configs.py"
 alias n="cd ~/git/NeckbeardConfigs"
 cd ~
 ls -l
-python3 ~/git/NeckbeardConfigs/update_repo_configs.py
