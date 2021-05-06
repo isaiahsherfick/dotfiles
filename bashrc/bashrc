@@ -118,6 +118,7 @@ fi
 
 alias apt="apt-fast"
 alias wp="nitrogen --restore"
+alias battery="upower -i /org/freedesktop/UPower/devices/battery_BAT0"
 alias p="python3"
 alias pr="vim ~/.profile"
 alias sl="ls"
