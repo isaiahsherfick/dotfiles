@@ -11,3 +11,4 @@ set rnu
 set nu
 so ~/.pythonvimrc
 set clipboard+=unnamedplus
+set hidden
