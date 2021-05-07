@@ -25,3 +25,4 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+#python3 ~/git/redshifton/redshifton.py </dev/null &>/dev/null &
