@@ -118,7 +118,6 @@ fi
 
 alias apt="apt-fast"
 alias wp="nitrogen --restore"
-alias battery="upower -i /org/freedesktop/UPower/devices/battery_BAT0"
 alias p="python3"
 alias pr="vim ~/.profile"
 alias sl="ls"
@@ -130,5 +129,4 @@ alias gacp="git add --all && git commit -m \"quick commit\" && git push"
 alias s="python3 ~/git/NeckbeardConfigs/update_repo_configs.py"
 alias n="cd ~/git/NeckbeardConfigs"
 cd ~
-battery
-ls
+ls -l
