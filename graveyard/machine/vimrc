@@ -8,4 +8,7 @@ call vundle#end()
 filetype plugin indent on
 syntax on
 set rnu
+set nu
 so ~/.pythonvimrc
+set clipboard+=unnamedplus
+set hidden

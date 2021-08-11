@@ -129,6 +129,7 @@ alias s="python3 ~/git/NeckbeardConfigs/update_repo_configs.py"
 alias n="cd ~/git/NeckbeardConfigs"
 alias vr="vim ~/.vimrc"
 alias d="cd ~/Downloads"
+alias ~="cd ~"
 cd ~
 alias r="redshift < /dev/null &> /dev/null &"
 ls -l
