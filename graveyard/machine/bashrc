@@ -87,6 +87,11 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
@@ -111,8 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-alias ll="ls -l"
-alias lal="ls -al"
 alias apt="apt-fast"
 alias wp="nitrogen --restore"
 alias battery="upower -i /org/freedesktop/UPower/devices/battery_BAT0"
@@ -123,13 +126,10 @@ alias k="killall python3"
 alias b="vim ~/.bashrc"
 alias ga="git add --all"
 alias gp="git push"
-alias g="cd ~/git/"
 alias gacp="git add --all && git commit -m \"quick commit\" && git push"
 alias s="python3 ~/git/NeckbeardConfigs/update_repo_configs.py"
 alias n="cd ~/git/NeckbeardConfigs"
 alias vr="vim ~/.vimrc"
-alias d="cd ~/Downloads"
-alias ~="cd ~"
 cd ~
-alias r="redshift < /dev/null &> /dev/null &"
+battery
 ls -l
