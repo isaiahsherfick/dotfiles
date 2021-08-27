@@ -25,3 +25,4 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+export PATH=$PATH:/home/isaiah/.local/share/gem/ruby/3.0.0/bin

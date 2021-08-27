@@ -137,5 +137,4 @@ alias l="ls"
 alias brightness="xbacklight -set"
 alias se="cd ~/git/Semester9"
 alias update="yay -Syua"
-alias wireshark="sudo wireshark &"
 cd ~/git/OOP-Breakout/src
