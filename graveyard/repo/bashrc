@@ -138,4 +138,4 @@ alias brightness="xbacklight -set"
 alias se="cd ~/git/Semester9"
 alias update="yay -Syua"
 alias q="exit"
-cd ~/git/OOP-Breakout/src
+cd ~
