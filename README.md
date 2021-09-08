@@ -1,4 +1,4 @@
-# NeckbeardConfigs
+# dotfiles
 Config files for vim i3wm tmux etc
 
 Contained in /graveyard is the most recently overwritten versions of each
