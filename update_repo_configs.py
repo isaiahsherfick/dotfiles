@@ -26,6 +26,9 @@ if __name__ == "__main__":
         os.system("cp ~/git/NeckbeardConfigs/bashrc/bashrc ~/git/NeckbeardConfigs/graveyard/repo/")
         os.system("cp ~/.bashrc ~/git/NeckbeardConfigs/bashrc/bashrc")
         print("saving ~/.bashrc...")
+        os.system("cp ~/git/NeckbeardConfigs/tmux/tmux.conf ~/git/NeckbeardConfigs/graveyard/repo/")
+        os.system("cp ~/.tmux.conf ~/git/NeckbeardConfigs/tmux/tmux.conf")
+        print("saving ~/.tmux.conf...")
         time.sleep(.25)
         print("Done")
     else:

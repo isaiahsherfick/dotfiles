@@ -20,6 +20,10 @@ os.system("cp ~/.bashrc ~/git/NeckbeardConfigs/graveyard/machine/bashrc")
 os.system("cp ~/git/NeckbeardConfigs/bashrc/bashrc ~/.bashrc")
 print("pulling ~/.bashrc...")
 time.sleep(.25)
+os.system("cp ~/.tmux.conf ~/git/NeckbeardConfigs/graveyard/machine/tmux.conf")
+os.system("cp ~/git/NeckbeardConfigs/tmux/tmux.conf ~/.tmux.conf")
+print("pulling ~/.tmux.conf...")
+time.sleep(.25)
 print("Done")
 
 
