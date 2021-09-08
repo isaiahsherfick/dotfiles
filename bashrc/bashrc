@@ -137,5 +137,7 @@ alias l="ls"
 alias brightness="brightnessctl -d \"intel_backlight\" set"
 alias se="cd ~/git/Semester9"
 alias update="yay -Syua"
+alias repo="cd ~/git/CSCI-P532-WeekTwo"
 alias q="exit"
+alias c="tty-clock -s"
 cd ~

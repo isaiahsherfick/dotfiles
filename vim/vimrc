@@ -12,3 +12,6 @@ set nu
 so ~/.pythonvimrc
 set clipboard+=unnamedplus
 set hidden
+set tabstop=4
+set shiftwidth=4
+set expandtab
