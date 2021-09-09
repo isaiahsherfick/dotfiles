@@ -140,4 +140,5 @@ alias repo="cd ~/git/CSCI-P532-WeekTwo"
 alias q="exit"
 alias c="tty-clock -s"
 alias t="vim ~/.tmux.conf"
+alias tm="tmux"
 cd ~
