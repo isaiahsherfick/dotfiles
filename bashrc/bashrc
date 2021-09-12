@@ -112,6 +112,7 @@ if ! shopt -oq posix; then
 fi
 
 alias ll="ls -l"
+alias li="links duckduckgo.org"
 alias lal="ls -al"
 alias apt="apt-fast"
 alias wp="nitrogen --restore"
