@@ -143,4 +143,14 @@ alias c="tty-clock -s"
 alias t="vim ~/.tmux.conf"
 alias tm="tmux"
 alias is="cd ~/git/isaiahsherfick.github.io/reactJS/src/"
-cd ~
+alias add="git add"
+alias commit="git commit -m"
+alias push="git push"
+alias pull="git pull"
+alias merge="git merge"
+alias checkout="git checkout"
+alias status="git status"
+alias rl="source ~/.bashrc"
+alias puhs="git push"
+xset r rate 200 75
+cd ~/git/Team1-Week5/

@@ -142,4 +142,5 @@ alias q="exit"
 alias c="tty-clock -s"
 alias t="vim ~/.tmux.conf"
 alias tm="tmux"
+alias is="cd ~/git/isaiahsherfick.github.io/reactJS/src/"
 cd ~
