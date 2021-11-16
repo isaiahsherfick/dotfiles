@@ -16,4 +16,4 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set nowrap
-autocmd VimEnter * NERDTree | wincmd p
+nnoremap <C-n> :NERDTree<CR>
