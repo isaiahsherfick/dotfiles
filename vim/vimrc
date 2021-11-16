@@ -4,6 +4,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin() "Plugins go between begin and end
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'reedes/vim-pencil'
+Plugin 'preservim/nerdtree'
 call vundle#end()
 filetype plugin indent on
 syntax on
@@ -15,4 +16,4 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set nowrap
-so ~/.pythonvimrc
+autocmd VimEnter * NERDTree | wincmd p
