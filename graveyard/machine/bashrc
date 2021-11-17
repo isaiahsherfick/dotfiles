@@ -143,5 +143,28 @@ alias c="tty-clock -s"
 alias t="vim ~/.tmux.conf"
 alias tm="tmux"
 alias is="cd ~/git/isaiahsherfick.github.io/reactJS/src/"
-alias conn="nc -v 127.0.0.1 23456"
-cd ~
+alias add="git add"
+alias commit="git commit -m"
+alias push="git push"
+alias pull="git pull"
+alias merge="git merge"
+alias checkout="git checkout"
+alias status="git status"
+alias rl="source ~/.bashrc"
+alias puhs="git push"
+alias null="/dev/null"
+xset r rate 200 75
+JAVA_HOME=/usr/lib/jvm/java-16-openjdk
+PROJECT_SRC=/home/isaiah/git/team1-project/design_pattern_blaster/src/main/java/group1
+PROJECT_ROOT=/home/isaiah/git/team1-project/design_pattern_blaster/
+TEST_ROOT=/home/isaiah/git/team1-project/design_pattern_blaster/src/test/java/group1
+BEHAVIOR=/home/isaiah/git/team1-project/design_pattern_blaster/src/main/java/group1/model/sprite/behavior
+SPRITE=/home/isaiah/git/team1-project/design_pattern_blaster/src/main/java/group1/model/sprite
+alias sprite="cd $SPRITE"
+alias behavior="cd $BEHAVIOR"
+alias behaviors="cd $BEHAVIOR"
+alias R="cd $PROJECT_ROOT"
+alias T="cd $TEST_ROOT"
+alias S="cd $PROJECT_SRC"
+export PS1="$:"
+cd ~/git/Net-Fall21/src
