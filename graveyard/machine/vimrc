@@ -8,6 +8,7 @@ Plugin 'preservim/nerdtree'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'vim-airline/vim-airline'
 Plugin 'tpope/vim-commentary'
+Plugin 'dense-analysis/ale'
 call vundle#end()
 filetype plugin indent on
 syntax on
@@ -20,3 +21,4 @@ set shiftwidth=4
 set expandtab
 set nowrap
 nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-v> :vs<CR>

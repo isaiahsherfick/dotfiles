@@ -166,5 +166,9 @@ alias behaviors="cd $BEHAVIOR"
 alias R="cd $PROJECT_ROOT"
 alias T="cd $TEST_ROOT"
 alias S="cd $PROJECT_SRC"
-export PS1="$:"
-cd ~/git/Net-Fall21/src
+alias server="~/git/Net-Fall21/src/server.sh"
+alias client="~/git/Net-Fall21/src/client.sh"
+alias run="R && mvn clean javafx:run"
+alias behavior="cd /home/isaiah/git/team1-project/design_pattern_blaster/src/main/java/group1/model/sprite/behavior/"
+export PS1="\[\033[01;34m\]\w\[\033[00m\]\$:"
+cd ~/git/7e25ac

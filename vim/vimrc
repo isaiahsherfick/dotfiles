@@ -5,7 +5,6 @@ call vundle#begin() "Plugins go between begin and end
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'reedes/vim-pencil'
 Plugin 'preservim/nerdtree'
-Plugin 'vim-syntastic/syntastic'
 Plugin 'vim-airline/vim-airline'
 Plugin 'tpope/vim-commentary'
 call vundle#end()
@@ -19,4 +18,5 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set nowrap
-nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-n> :NERDTree <bar> :set rnu <CR> 
+nnoremap <C-v> :vs<CR>
