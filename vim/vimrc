@@ -7,6 +7,8 @@ Plugin 'reedes/vim-pencil'
 Plugin 'preservim/nerdtree'
 Plugin 'vim-airline/vim-airline'
 Plugin 'tpope/vim-commentary'
+Plugin 'pangloss/vim-javascript'
+Plugin 'prettier/vim-prettier'
 call vundle#end()
 filetype plugin indent on
 syntax on
