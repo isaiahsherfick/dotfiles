@@ -153,10 +153,22 @@ alias status="git status"
 alias rl="source ~/.bashrc"
 alias puhs="git push"
 alias null="/dev/null"
-alias run="R && mvn clean javafx:run"
-PROJECT_ROOT="/home/isaiah/git/team1-project/design_pattern_blaster"
-PROJECT_SRC="/home/isaiah/git/team1-project/design_pattern_blaster/src/main/java/group1"
-alias S="cd $PROJECT_SRC"
-alias R="cd $PROJECT_ROOT"
 xset r rate 200 75
-cd ~/git/Net-Fall21/src
+JAVA_HOME=/usr/lib/jvm/java-16-openjdk
+PROJECT_SRC=/home/isaiah/git/team1-project/design_pattern_blaster/src/main/java/group1
+PROJECT_ROOT=/home/isaiah/git/team1-project/design_pattern_blaster/
+TEST_ROOT=/home/isaiah/git/team1-project/design_pattern_blaster/src/test/java/group1
+BEHAVIOR=/home/isaiah/git/team1-project/design_pattern_blaster/src/main/java/group1/model/sprite/behavior
+SPRITE=/home/isaiah/git/team1-project/design_pattern_blaster/src/main/java/group1/model/sprite
+alias sprite="cd $SPRITE"
+alias behavior="cd $BEHAVIOR"
+alias behaviors="cd $BEHAVIOR"
+alias R="cd $PROJECT_ROOT"
+alias T="cd $TEST_ROOT"
+alias S="cd $PROJECT_SRC"
+alias server="~/git/Net-Fall21/src/server.sh"
+alias client="~/git/Net-Fall21/src/client.sh"
+alias run="R && mvn clean javafx:run"
+alias behavior="cd /home/isaiah/git/team1-project/design_pattern_blaster/src/main/java/group1/model/sprite/behavior/"
+export PS1="\[\033[01;34m\]\w\[\033[00m\]\$:"
+cd ~/git/

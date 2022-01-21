@@ -160,6 +160,7 @@ TEST_ROOT=/home/isaiah/git/team1-project/design_pattern_blaster/src/test/java/gr
 BEHAVIOR=/home/isaiah/git/team1-project/design_pattern_blaster/src/main/java/group1/model/sprite/behavior
 SPRITE=/home/isaiah/git/team1-project/design_pattern_blaster/src/main/java/group1/model/sprite
 alias sprite="cd $SPRITE"
+alias copy="xclip -selection c"
 alias behavior="cd $BEHAVIOR"
 alias behaviors="cd $BEHAVIOR"
 alias R="cd $PROJECT_ROOT"
@@ -171,4 +172,4 @@ alias run="R && mvn clean javafx:run"
 alias behavior="cd /home/isaiah/git/team1-project/design_pattern_blaster/src/main/java/group1/model/sprite/behavior/"
 alias D="cd ~/Downloads/"
 export PS1="\[\033[01;34m\]\w\[\033[00m\]\$:"
-cd /home/isaiah/git/vscode-extension/vscode-codebase-insights-iu/codebase-insights
+cd /home/isaiah/git/vscode-extension
