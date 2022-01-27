@@ -132,7 +132,6 @@ alias vr="vim ~/.vimrc"
 alias v="vim -p"
 alias de="cd ~/git/DesignPatterns"
 alias ~="cd ~"
-alias r="redshift < /dev/null &> /dev/null &"
 alias l="ls"
 alias brightness="brightnessctl -d \"intel_backlight\" set"
 alias se="cd ~/git/Semester9"
@@ -161,6 +160,7 @@ TEST_ROOT=/home/isaiah/git/team1-project/design_pattern_blaster/src/test/java/gr
 BEHAVIOR=/home/isaiah/git/team1-project/design_pattern_blaster/src/main/java/group1/model/sprite/behavior
 SPRITE=/home/isaiah/git/team1-project/design_pattern_blaster/src/main/java/group1/model/sprite
 alias sprite="cd $SPRITE"
+alias copy="xclip -selection c"
 alias behavior="cd $BEHAVIOR"
 alias behaviors="cd $BEHAVIOR"
 alias R="cd $PROJECT_ROOT"
@@ -170,5 +170,6 @@ alias server="~/git/Net-Fall21/src/server.sh"
 alias client="~/git/Net-Fall21/src/client.sh"
 alias run="R && mvn clean javafx:run"
 alias behavior="cd /home/isaiah/git/team1-project/design_pattern_blaster/src/main/java/group1/model/sprite/behavior/"
+alias D="cd ~/Downloads/"
 export PS1="\[\033[01;34m\]\w\[\033[00m\]\$:"
-cd ~/git/
+cd /home/isaiah/git/isherfic1-abhimdi2-philipk3
