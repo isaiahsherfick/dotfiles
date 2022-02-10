@@ -161,6 +161,7 @@ BEHAVIOR=/home/isaiah/git/team1-project/design_pattern_blaster/src/main/java/gro
 SPRITE=/home/isaiah/git/team1-project/design_pattern_blaster/src/main/java/group1/model/sprite
 alias sprite="cd $SPRITE"
 alias copy="xclip -selection c"
+alias pwdToClipboard="pwd | xclip -selection c"
 alias behavior="cd $BEHAVIOR"
 alias behaviors="cd $BEHAVIOR"
 alias R="cd $PROJECT_ROOT"
@@ -178,3 +179,4 @@ cd /home/isaiah/git/vscode-extension
 cd /home/isaiah/git/isherfic1-abhimdi2-philipk3/hw1
 cd /home/isaiah/git/diablo2/valueable_items
 cd /home/isaiah/git/Semester-10/AML/
+cd /home/isaiah/git/learning-machine-learning
