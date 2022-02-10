@@ -172,8 +172,7 @@ alias run="R && mvn clean javafx:run"
 alias behavior="cd /home/isaiah/git/team1-project/design_pattern_blaster/src/main/java/group1/model/sprite/behavior/"
 alias D="cd ~/Downloads/"
 alias clone="git clone"
-alias clipboard="xclip -selection c"
 export PS1="\[\033[01;34m\]\w\[\033[00m\]\$:"
-cd /home/isaiah/git/isherfic1-abhimdi2-philipk3/hw1/src/p3
-cd /home/isaiah/git/Semester-10/arduino/Arduino/DrinkWaterReminderTortionBox
+cd /home/isaiah/git/diablo2/valueable_items
+cd /home/isaiah/git/isherfic1-abhimdi2-philipk3/hw1
 cd /home/isaiah/git/vscode-extension

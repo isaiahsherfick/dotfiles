@@ -27,4 +27,3 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 xset r rate 200 70
 nohup picom >> /dev/null &
-killall -9 xcompmgr
