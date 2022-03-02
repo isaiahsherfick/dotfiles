@@ -175,7 +175,7 @@ alias D="cd ~/Downloads/"
 alias clone="git clone"
 alias pdf="function _(){ nohup evince $1 | >> /dev/null ; }; _"
 export PS1="\[\033[01;34m\]\w\[\033[00m\]\$:"
-cd /home/isaiah/git/vscode-extension
 cd /home/isaiah/git/diablo2/valueable_items
 cd /home/isaiah/git/Semester-10/AML/
 cd /home/isaiah/git/isherfic1-abhimdi2-philipk3/hw2
+cd /home/isaiah/git/vscode-extension

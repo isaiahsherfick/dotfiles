@@ -23,3 +23,4 @@ set nowrap
 set sidescroll=1
 nnoremap <C-n> :NERDTree <bar> :set rnu <CR> 
 nnoremap <C-v> :vs<CR>
+nnoremap <C-c> :%y+<CR>
