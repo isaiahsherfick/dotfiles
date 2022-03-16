@@ -1,0 +1,5 @@
+#!/bin/bash
+cp ~/git/dotfiles/tmux/tmux.conf ~/git/dotfiles/graveyard/repo/tmux.conf
+cp ~/.tmux.conf ~/git/dotfiles/tmux/tmux.conf
+echo "Copied tmux.conf to repo!"
+

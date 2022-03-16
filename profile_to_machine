@@ -1,0 +1,4 @@
+#!/bin/bash
+cp ~/.profile ~/git/dotfiles/graveyard/machine/profile
+cp ~/git/dotfiles/profile/profile ~/.profile
+echo "Copied .profile to machine!"

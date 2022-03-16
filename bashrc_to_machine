@@ -1,0 +1,5 @@
+#!/bin/bash
+cp ~/.bashrc ~/git/dotfiles/graveyard/machine/bashrc
+cp ~/git/dotfiles/bashrc/bashrc ~/.bashrc
+echo "Copied .bashrc to machine!"
+

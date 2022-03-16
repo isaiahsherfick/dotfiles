@@ -1,0 +1,4 @@
+#!/bin/bash
+cp ~/git/dotfiles/bashrc/bashrc ~/git/dotfiles/graveyard/repo/bashrc
+cp ~/.bashrc ~/git/dotfiles/bashrc
+echo "Copied bashrc to repo!"

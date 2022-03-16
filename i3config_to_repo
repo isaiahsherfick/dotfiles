@@ -1,0 +1,4 @@
+#!/bin/bash
+cp ~/git/dotfiles/i3wm/config ~/git/dotfiles/graveyard/repo/
+cp ~/.config/i3/config ~/git/dotfiles/i3wm/config
+echo "Copied i3 settings to repo!"

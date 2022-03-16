@@ -1,0 +1,4 @@
+#!/bin/bash
+cp ~/git/dotfiles/profile/profile ~/git/dotfiles/graveyard/repo/profile
+cp ~/.profile ~/git/dotfiles/profile
+echo "Copied profile to repo!"

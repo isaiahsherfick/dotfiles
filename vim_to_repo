@@ -1,0 +1,6 @@
+#!/bin/bash
+cp ~/git/dotfiles/vim/* ~/git/dotfiles/graveyard/repo/
+cp ~/.vimrc ~/git/dotfiles/vim/vimrc
+cp ~/.pythonvimrc ~/git/dotfiles/vim/pythonvimrc
+cp ~/.vim/pack/ ~/git/dotfiles/vim/pack/
+echo "Copied vim settings to repo!"
