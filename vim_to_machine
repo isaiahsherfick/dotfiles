@@ -1,6 +1,6 @@
 #!/bin/bash
 cp ~/.vimrc ~/git/dotfiles/graveyard/machine/vimrc
 cp ~/.pythonvimrc ~/git/dotfiles/graveyard/machine/pythonvimrc
-cp ~/.vim/pack/ ~/git/dotfiles/graveyard/machine/pack/
+cp -r ~/.vim/pack/ ~/git/dotfiles/graveyard/machine/pack/
 cp -r ~/git/dotfiles/vim/* ~/
 echo "Copied vim settings to machine!"
